@@ -46,6 +46,8 @@ h2 {
 .header-sub-menu>ul>li>a {
 	width: 100%;
 	height: 100%;
+	color: black;
+	text-decoration: none;
 }
 .header-sub-menu>ul>li>a:hover {
 	color: blue;
@@ -79,9 +81,9 @@ h2 {
 			</div>
 			<div class="header-sub-menu">
 				<ul>
-					<li><a>STUDY</a></li>
-					<li><a>PHOTO</a></li>
-					<li><a>INFO</a></li>
+					<li><a href="../WEB-INF/views/study/studyMain.jsp">STUDY</a></li>
+					<li><a href="#">PHOTO</a></li>
+					<li><a href="#">INFO</a></li>
 				</ul>
 			</div>
 		</div>
